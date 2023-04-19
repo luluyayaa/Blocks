@@ -1,0 +1,27 @@
+{
+  "name": "vue-mini-weather",
+  "description": "基于 Vue 的迷你天气预报组件",
+  "keyword": "vue weather mini-weather",
+  "version": "0.3.5",
+  "author": "aidioute",
+  "license": "MIT",
+  "private": false,
+  "main": "./main.js",
+  "scripts": {
+    "dev": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lib": "vue-cli-service build --target lib --name index src/lib/index.js --dest npm"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "lottie-web": "^5.7.8",
+    "vue-mini-weather": "^0.3.5"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "vue-template-compiler": "^2.6.11",
+    "core-js": "^3.6.5",
+    "vue": "^2.6.11"
+  }
+}
